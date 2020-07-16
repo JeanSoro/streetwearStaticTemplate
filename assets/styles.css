@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.2rem;
+  height: 8rem;
+  padding: 0 10%;
+}
+
+header .logo a {
+  font-weight: 700;
+  color: #FFF;
+  text-transform: uppercase;
+
+}
+
+header .menu {
+  display: flex;
+}
+
+header .menu a {
+  font-weight: 400;
+  color: #FFF;
+  text-transform: uppercase;
+
+}
+
+header .menu .link {
+  padding: 2rem;
+  ;
+}
+
+header .menu .dropdown {
+  position: relative;
+  padding: 2rem;
+
+}
+
+header .menu .dropdown:hover .sub-menu,
+header .menu .dropdown .sub-menu:hover {
+  display: block;
+
+}
+
+
+header .menu .dropdown .sub-menu {
+  background: #FFF;
+  transform: translate3d(0, 1rem, 0);
+  display: none;
+  position: absolute;
+  /* padding: 2rem; */
+  min-width: 12rem;
+  border-radius: 3px;
+  font-size: 1.2rem;
+
+}
+
+header .menu .dropdown .sub-menu a {
+  color: #000;
+  display: block;
+  padding: 1rem;
+}
+
+
+
+
+
+#jumbo {
+  height: 100vh;
+  width: 100%;
+  background: black;
+}
