@@ -46,6 +46,7 @@ body {
   color: #FFF;
   text-transform: uppercase;
   font-size: 2rem;
+  text-decoration: none;
 
 }
 
@@ -57,12 +58,13 @@ body {
   font-weight: 400;
   color: #FFF;
   text-transform: uppercase;
+  text-decoration: none;
 
 }
 
 .header .menu .link {
   padding: 2rem;
-  ;
+
 }
 
 .header .menu .dropdown {
@@ -403,4 +405,76 @@ body {
 #homepage_products_grid .product-background .overlay .product-price {
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+/* Footer starts here */
+
+footer {
+  background: #1b1b1b;
+  padding: 5rem 0;
+
+}
+
+footer .footer-menu .menu-title,
+footer .social-title {
+  color: yellow;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+footer .footer-menu a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+footer .social-icons {
+  display: block;
+  display: flex;
+}
+
+footer .social-icons li {
+  margin-right: 1rem;
+}
+
+footer .social-icons a {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  color: black;
+}
+
+footer .social-icons a:hover,
+footer .social-icons a:active {
+
+  background-color: yellow;
+  color: #000;
+
+}
+
+footer hr {
+  background-color: white;
+  height: 2px;
+  margin: 2rem;
+
+
+}
+
+footer .address {
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 1.3rem;
+  text-transform: capitalize;
 }
