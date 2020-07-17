@@ -50,11 +50,13 @@ body {
   text-transform: uppercase;
   font-size: 2rem;
   text-decoration: none;
+  display: block;
 
 }
 
 .header .menu {
   display: flex;
+  margin-bottom: 0;
 }
 
 .header .menu a {
@@ -62,7 +64,6 @@ body {
   color: #FFF;
   text-transform: uppercase;
   text-decoration: none;
-
 }
 
 .header .menu .link {
@@ -185,7 +186,7 @@ body {
 #jumbo .state {
   background: white;
   position: absolute;
-  height: 15%;
+  height: 12%;
   z-index: 3;
   width: 100%;
   bottom: 0px;
@@ -193,7 +194,7 @@ body {
   align-items: center;
 }
 
-#jumbo .number {
+#jumbo .state .number {
   font-size: 5rem;
   transform: translate3d(50px, 0, 0);
 
@@ -208,8 +209,6 @@ body {
   bottom: 0;
   right: 0;
   display: flex;
-
-
 }
 
 #jumbo .store-info img {
@@ -219,7 +218,7 @@ body {
   cursor: pointer;
   filter: saturate(0);
   transition: all .3s ease-in-out;
-  object-position: 100% 80%;
+  /* object-position: 100% 80%; */
 
 }
 
@@ -229,13 +228,14 @@ body {
   object-fit: cover;
   cursor: pointer;
   filter: saturate(100%);
-  object-position: 100% 80%;
+  /* object-position: 100% 80%; */
 }
 
 /* collections */
 
 #collections_big_columns {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
 }
 
 #collections_big_columns .left-column .left-column-image {
